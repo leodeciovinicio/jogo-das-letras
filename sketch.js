@@ -69,12 +69,19 @@ function fase1 () {
     window.alfabeto();
 } 
 function INSTRUÇÕES () { 
-  background(200);
+  background(0);
    textSize(32); 
-  text("INSTRUÇÕES", 90, 130); 
+  text("JOGO DAS LETRAS", 90, 130); 
+  textSize(25); 
+  text("É indicado para qualquer pessoa que esteja em processo de\nalfabetização. Ele desenvolve a capacidade de reconhecer as\nletras do alfabeto, de forma lúdica formando palavras do seu\nrepertório sugeridas pelo alfabetizador. ", 90, 200);
+  
 } 
 function CREDITOS () {
-  background(200);
+  background(0);
    textSize(32); 
-  text("CREDITOS", 90, 130); 
+  text("Leodécio Vinício Gomes Mendonça", 90, 130); 
+  textSize(25); 
+  text("Matrícula: 20190070254", 90, 160); 
+  textSize(32);
+  text("Vânia Gomes da Silva", 90, 430);
 } 
