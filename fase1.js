@@ -51,9 +51,6 @@ for (i = 0; i < 26; i++) {
 }
 
 const texts = [];
-// const quadrados = [quadrado1, quadrado2, quadrado3, quadrado4, quadrado5, quadrado6, quadrado7, quadrado8, quadrado9];
-
-
 var start = null;
 
 function mouseMoved() {
