@@ -6,8 +6,6 @@ function preload(){
   img2 = loadImage('introduçao.png');
   img3 = loadImage('creditos.png');
   img4 = loadImage('fundo do menu.png');
-  img5 = loadImage('eu.jpg');
-  img6 = loadImage('mae.jpg');
 }
 
 
@@ -69,6 +67,7 @@ function menu() {
 function fase1 () { 
   console.log("entrou na fase 1")
     window.alfabeto();
+  
 } 
 function INSTRUÇÕES () { 
   background(0);
@@ -85,11 +84,6 @@ function CREDITOS () {
   textSize(25); 
   text("Matrícula: 20190070254", 90, 160); 
   textSize(32);
-  text("Vânia Gomes da Silva Mendonça", 90, 360);
-  textSize(25);
-  text("Professora dos municípios de Natal e Parnamirim", 90, 390);
-  image(img5, 90, 170, 150, 150);
-  image(img6, 90, 400, 150, 150);
+  text("Vânia Gomes da Silva", 90, 430);
 } 
-
 
