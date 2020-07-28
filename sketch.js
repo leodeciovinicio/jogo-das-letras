@@ -6,6 +6,8 @@ function preload(){
   img2 = loadImage('introduçao.png');
   img3 = loadImage('creditos.png');
   img4 = loadImage('fundo do menu.png');
+  img5 = loadImage('eu.jpg');
+  img6 = loadImage('mae.jpg');
 }
 
 
